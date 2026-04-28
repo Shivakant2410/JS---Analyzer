@@ -1,4 +1,4 @@
-﻿import React, { useState, useMemo, useEffect, useRef } from 'react';
+﻿﻿import React, { useState, useMemo, useEffect, useRef } from 'react';
 
 // --- Type Definitions ---
 type SeverityLevel = 'High' | 'Medium' | 'Low';
@@ -373,7 +373,7 @@ export default function App() {
 
 const Header = () => (
   <header className="text-center">
-    <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">Utkarsh JS Analyzer</h1>
+    <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">JS Analyzer</h1>
     <p className="mt-2 text-slate-400 max-w-2xl mx-auto">Scan JavaScript & HTML files to detect hardcoded secrets, API keys, and other sensitive data.</p>
   </header>
 );
